@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D308305B1D0B026200DA49FA /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D308305A1D0B026200DA49FA /* AVKit.framework */; };
+		D309C4821D04CFC1007FD5C8 /* Menu Selection Click.wav in Resources */ = {isa = PBXBuildFile; fileRef = D309C4811D04CFC1007FD5C8 /* Menu Selection Click.wav */; };
+		D309C48A1D063DBF007FD5C8 /* BallDeflectedSound5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D309C4891D063DBF007FD5C8 /* BallDeflectedSound5.mp3 */; };
+		D309C48C1D073DA3007FD5C8 /* IncorrectSound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D309C48B1D073DA3007FD5C8 /* IncorrectSound1.mp3 */; };
+		D309C4901D07895E007FD5C8 /* Powerup2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D309C48F1D07895E007FD5C8 /* Powerup2.mp3 */; };
 		D380FBDB1CFCD62700E440C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D380FBDA1CFCD62700E440C0 /* AppDelegate.swift */; };
-		D380FBDD1CFCD62700E440C0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D380FBDC1CFCD62700E440C0 /* GameScene.sks */; };
-		D380FBDF1CFCD62700E440C0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D380FBDE1CFCD62700E440C0 /* GameScene.swift */; };
 		D380FBE11CFCD62700E440C0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D380FBE01CFCD62700E440C0 /* GameViewController.swift */; };
 		D380FBE41CFCD62700E440C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D380FBE21CFCD62700E440C0 /* Main.storyboard */; };
 		D380FBE61CFCD62800E440C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D380FBE51CFCD62800E440C0 /* Assets.xcassets */; };
 		D380FBE91CFCD62800E440C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D380FBE71CFCD62800E440C0 /* LaunchScreen.storyboard */; };
 		D380FBF41CFCD62800E440C0 /* Deflector_BallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D380FBF31CFCD62800E440C0 /* Deflector_BallsTests.swift */; };
 		D380FBFF1CFCD62800E440C0 /* Deflector_BallsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D380FBFE1CFCD62800E440C0 /* Deflector_BallsUITests.swift */; };
+		D380FC111CFCD7AF00E440C0 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D380FC101CFCD7AF00E440C0 /* MainMenuScene.swift */; };
+		D380FC131CFCD7C600E440C0 /* MainMenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D380FC121CFCD7C600E440C0 /* MainMenuScene.sks */; };
+		D380FC161CFCF13600E440C0 /* Prototype.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D380FC151CFCF13600E440C0 /* Prototype.ttf */; };
+		D380FC191CFD0C1C00E440C0 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D380FC181CFD0C1C00E440C0 /* GameManager.swift */; };
+		D380FC1D1CFD0DB900E440C0 /* Ball.swift in Sources */ = {isa = PBXBuildFile; fileRef = D380FC1C1CFD0DB900E440C0 /* Ball.swift */; };
+		D380FC201CFE3DD000E440C0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D380FC1F1CFE3DD000E440C0 /* Constants.swift */; };
+		D380FC221CFE3FE700E440C0 /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D380FC211CFE3FE700E440C0 /* GameplayScene.swift */; };
+		D380FC241CFE3FF300E440C0 /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D380FC231CFE3FF300E440C0 /* GameplayScene.sks */; };
+		D39805551CFF8708004FC35A /* GameoverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D39805541CFF8708004FC35A /* GameoverScene.swift */; };
+		D39805571CFF8715004FC35A /* GameoverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D39805561CFF8715004FC35A /* GameoverScene.sks */; };
+		D3ABD28C1D0A357400BD904D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3ABD28B1D0A357400BD904D /* StoreKit.framework */; };
+		D3B744A51D04B11400744691 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B744A41D04B11400744691 /* GameKit.framework */; };
+		D3B744A71D04B23300744691 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B744A61D04B23300744691 /* GoogleMobileAds.framework */; };
+		D3B744B31D04C00700744691 /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = D3B744B11D04C00700744691 /* Smoke.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +53,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D308305A1D0B026200DA49FA /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		D309C4811D04CFC1007FD5C8 /* Menu Selection Click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Menu Selection Click.wav"; sourceTree = "<group>"; };
+		D309C4891D063DBF007FD5C8 /* BallDeflectedSound5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BallDeflectedSound5.mp3; sourceTree = "<group>"; };
+		D309C48B1D073DA3007FD5C8 /* IncorrectSound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = IncorrectSound1.mp3; sourceTree = "<group>"; };
+		D309C48F1D07895E007FD5C8 /* Powerup2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Powerup2.mp3; sourceTree = "<group>"; };
 		D380FBD71CFCD62700E440C0 /* Deflector Balls.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Deflector Balls.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D380FBDA1CFCD62700E440C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D380FBDC1CFCD62700E440C0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		D380FBDE1CFCD62700E440C0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D380FBE01CFCD62700E440C0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D380FBE31CFCD62700E440C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D380FBE51CFCD62800E440C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +71,20 @@
 		D380FBFA1CFCD62800E440C0 /* Deflector BallsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Deflector BallsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D380FBFE1CFCD62800E440C0 /* Deflector_BallsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deflector_BallsUITests.swift; sourceTree = "<group>"; };
 		D380FC001CFCD62800E440C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D380FC101CFCD7AF00E440C0 /* MainMenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		D380FC121CFCD7C600E440C0 /* MainMenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenuScene.sks; sourceTree = "<group>"; };
+		D380FC151CFCF13600E440C0 /* Prototype.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Prototype.ttf; sourceTree = "<group>"; };
+		D380FC181CFD0C1C00E440C0 /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		D380FC1C1CFD0DB900E440C0 /* Ball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ball.swift; sourceTree = "<group>"; };
+		D380FC1F1CFE3DD000E440C0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D380FC211CFE3FE700E440C0 /* GameplayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
+		D380FC231CFE3FF300E440C0 /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
+		D39805541CFF8708004FC35A /* GameoverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameoverScene.swift; sourceTree = "<group>"; };
+		D39805561CFF8715004FC35A /* GameoverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameoverScene.sks; sourceTree = "<group>"; };
+		D3ABD28B1D0A357400BD904D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		D3B744A41D04B11400744691 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		D3B744A61D04B23300744691 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		D3B744B11D04C00700744691 /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +92,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D308305B1D0B026200DA49FA /* AVKit.framework in Frameworks */,
+				D3ABD28C1D0A357400BD904D /* StoreKit.framework in Frameworks */,
+				D3B744A71D04B23300744691 /* GoogleMobileAds.framework in Frameworks */,
+				D3B744A51D04B11400744691 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +119,16 @@
 		D380FBCE1CFCD62700E440C0 = {
 			isa = PBXGroup;
 			children = (
+				D308305A1D0B026200DA49FA /* AVKit.framework */,
+				D3ABD28B1D0A357400BD904D /* StoreKit.framework */,
+				D3B744A61D04B23300744691 /* GoogleMobileAds.framework */,
+				D3B744A41D04B11400744691 /* GameKit.framework */,
 				D380FBD91CFCD62700E440C0 /* Deflector Balls */,
+				D380FC1E1CFE3DBB00E440C0 /* Constants */,
+				D380FC171CFD0BE400E440C0 /* Game Manager */,
+				D380FC0D1CFCD77400E440C0 /* Classes */,
+				D380FC0E1CFCD77A00E440C0 /* Scenes */,
+				D380FC0F1CFCD77F00E440C0 /* Assets */,
 				D380FBF21CFCD62800E440C0 /* Deflector BallsTests */,
 				D380FBFD1CFCD62800E440C0 /* Deflector BallsUITests */,
 				D380FBD81CFCD62700E440C0 /* Products */,
@@ -102,8 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				D380FBDA1CFCD62700E440C0 /* AppDelegate.swift */,
-				D380FBDC1CFCD62700E440C0 /* GameScene.sks */,
-				D380FBDE1CFCD62700E440C0 /* GameScene.swift */,
 				D380FBE01CFCD62700E440C0 /* GameViewController.swift */,
 				D380FBE21CFCD62700E440C0 /* Main.storyboard */,
 				D380FBE51CFCD62800E440C0 /* Assets.xcassets */,
@@ -129,6 +174,96 @@
 				D380FC001CFCD62800E440C0 /* Info.plist */,
 			);
 			path = "Deflector BallsUITests";
+			sourceTree = "<group>";
+		};
+		D380FC0D1CFCD77400E440C0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D3B744A81D04BF4E00744691 /* Particle Files */,
+				D380FC1B1CFD0DAD00E440C0 /* Ball */,
+				D380FC1A1CFD0DA400E440C0 /* Scene Classes */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D380FC0E1CFCD77A00E440C0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D380FC121CFCD7C600E440C0 /* MainMenuScene.sks */,
+				D380FC231CFE3FF300E440C0 /* GameplayScene.sks */,
+				D39805561CFF8715004FC35A /* GameoverScene.sks */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		D380FC0F1CFCD77F00E440C0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D3B744C31D04CAD800744691 /* Sounds / Music */,
+				D380FC141CFCF10100E440C0 /* Fonts */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		D380FC141CFCF10100E440C0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D380FC151CFCF13600E440C0 /* Prototype.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		D380FC171CFD0BE400E440C0 /* Game Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D380FC181CFD0C1C00E440C0 /* GameManager.swift */,
+			);
+			name = "Game Manager";
+			sourceTree = "<group>";
+		};
+		D380FC1A1CFD0DA400E440C0 /* Scene Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D380FC101CFCD7AF00E440C0 /* MainMenuScene.swift */,
+				D380FC211CFE3FE700E440C0 /* GameplayScene.swift */,
+				D39805541CFF8708004FC35A /* GameoverScene.swift */,
+			);
+			name = "Scene Classes";
+			sourceTree = "<group>";
+		};
+		D380FC1B1CFD0DAD00E440C0 /* Ball */ = {
+			isa = PBXGroup;
+			children = (
+				D380FC1C1CFD0DB900E440C0 /* Ball.swift */,
+			);
+			name = Ball;
+			sourceTree = "<group>";
+		};
+		D380FC1E1CFE3DBB00E440C0 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D380FC1F1CFE3DD000E440C0 /* Constants.swift */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		D3B744A81D04BF4E00744691 /* Particle Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3B744B11D04C00700744691 /* Smoke.sks */,
+			);
+			name = "Particle Files";
+			sourceTree = "<group>";
+		};
+		D3B744C31D04CAD800744691 /* Sounds / Music */ = {
+			isa = PBXGroup;
+			children = (
+				D309C4811D04CFC1007FD5C8 /* Menu Selection Click.wav */,
+				D309C48F1D07895E007FD5C8 /* Powerup2.mp3 */,
+				D309C48B1D073DA3007FD5C8 /* IncorrectSound1.mp3 */,
+				D309C4891D063DBF007FD5C8 /* BallDeflectedSound5.mp3 */,
+			);
+			name = "Sounds / Music";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,13 +334,17 @@
 				TargetAttributes = {
 					D380FBD61CFCD62700E440C0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4MT66R8K77;
+						LastSwiftMigration = 0820;
 					};
 					D380FBEE1CFCD62800E440C0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = D380FBD61CFCD62700E440C0;
 					};
 					D380FBF91CFCD62800E440C0 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = D380FBD61CFCD62700E440C0;
 					};
 				};
@@ -235,10 +374,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D380FBDD1CFCD62700E440C0 /* GameScene.sks in Resources */,
 				D380FBE91CFCD62800E440C0 /* LaunchScreen.storyboard in Resources */,
+				D380FC161CFCF13600E440C0 /* Prototype.ttf in Resources */,
+				D309C4821D04CFC1007FD5C8 /* Menu Selection Click.wav in Resources */,
 				D380FBE61CFCD62800E440C0 /* Assets.xcassets in Resources */,
+				D309C4901D07895E007FD5C8 /* Powerup2.mp3 in Resources */,
 				D380FBE41CFCD62700E440C0 /* Main.storyboard in Resources */,
+				D309C48C1D073DA3007FD5C8 /* IncorrectSound1.mp3 in Resources */,
+				D39805571CFF8715004FC35A /* GameoverScene.sks in Resources */,
+				D380FC241CFE3FF300E440C0 /* GameplayScene.sks in Resources */,
+				D309C48A1D063DBF007FD5C8 /* BallDeflectedSound5.mp3 in Resources */,
+				D380FC131CFCD7C600E440C0 /* MainMenuScene.sks in Resources */,
+				D3B744B31D04C00700744691 /* Smoke.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +410,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D380FBDF1CFCD62700E440C0 /* GameScene.swift in Sources */,
 				D380FBE11CFCD62700E440C0 /* GameViewController.swift in Sources */,
+				D380FC191CFD0C1C00E440C0 /* GameManager.swift in Sources */,
+				D39805551CFF8708004FC35A /* GameoverScene.swift in Sources */,
+				D380FC221CFE3FE700E440C0 /* GameplayScene.swift in Sources */,
+				D380FC1D1CFD0DB900E440C0 /* Ball.swift in Sources */,
+				D380FC111CFCD7AF00E440C0 /* MainMenuScene.swift in Sources */,
 				D380FBDB1CFCD62700E440C0 /* AppDelegate.swift in Sources */,
+				D380FC201CFE3DD000E440C0 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +493,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -386,6 +539,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -407,10 +561,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Deflector Balls/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Deflector-Balls";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebluapps.DeflectIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -418,10 +582,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Deflector Balls/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Deflector-Balls";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codebluapps.DeflectIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -434,6 +608,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Deflector-BallsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deflector Balls.app/Deflector Balls";
 			};
 			name = Debug;
@@ -446,6 +621,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Deflector-BallsTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deflector Balls.app/Deflector Balls";
 			};
 			name = Release;
@@ -458,6 +634,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Deflector-BallsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Deflector Balls";
 			};
 			name = Debug;
@@ -469,6 +646,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Deflector-BallsUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Deflector Balls";
 			};
 			name = Release;
@@ -492,6 +670,7 @@
 				D380FC051CFCD62800E440C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D380FC061CFCD62800E440C0 /* Build configuration list for PBXNativeTarget "Deflector BallsTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +679,7 @@
 				D380FC081CFCD62800E440C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D380FC091CFCD62800E440C0 /* Build configuration list for PBXNativeTarget "Deflector BallsUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +688,7 @@
 				D380FC0B1CFCD62800E440C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
